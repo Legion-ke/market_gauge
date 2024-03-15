@@ -1,0 +1,18 @@
+{
+  "name": "market-gauge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start":"node -r esm src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "africastalking": "^0.6.6"
+  },
+  "devDependencies": {
+    "esm": "^3.2.25"
+  }
+}
