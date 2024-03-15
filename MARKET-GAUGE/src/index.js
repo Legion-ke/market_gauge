@@ -1,8 +1,8 @@
-import africastalking from 'africastalking';
+const africastalking = require('africastalking');
 
 const client = africastalking({
     apiKey: 'c1f548d6541527b9272ae87c1b8a9d670514b8ecedcea094325f2d0181410832',
-    username: 'Abel-Ronoh'
+    username: 'sandbox'
   });
 
   client.SMS.send({
