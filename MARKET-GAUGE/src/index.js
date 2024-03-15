@@ -7,10 +7,11 @@ const client = africastalking({
 
   client.SMS.send({
     to: '+254742515910',
-    message: 'Short stock, trade now',
+    message: 'Short stock, trade now, right',
     from: 'MARKET-GAUGE',
     
 
   }).then(()=> console.log("message sent successfuly"))
+  
   .catch( err => console.log(err));
 

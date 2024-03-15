@@ -1,8 +1,8 @@
 {
-  "name": "gauge",
+  "name": "market-gauge",
   "version": "1.0.0",
   "description": "",
-  "main": "src/index.js",
+  "main": "index.js",
   "scripts": {
     "start": "nodemon src/index.js"
   },
